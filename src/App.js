@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./Header";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <main>
+        <section>
+          <article>
+            <img src="https://d7j7m3vbc0co5.cloudfront.net/default/0001/23/8bdb3580f2482f91f3d95bd1bd828f7776f4fda8.jpeg" />
+            <h2>Sup de Vinci</h2>
+            <p>Hello Sup de Vinci, blablablabl</p>
+          </article>
+        </section>
+      </main>
+      <footer>
+        <p>Copyright: Sup de vinci</p>
+        <ul>
+          <li>Home</li>
+          <li>Articles</li>
+        </ul>
+      </footer>
+    </>
   );
-}
+};
 
 export default App;
