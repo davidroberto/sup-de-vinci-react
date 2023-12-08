@@ -4,12 +4,14 @@ import Header from "./Header";
 import Article from "./Article";
 import Footer from "./Footer";
 import HighlightArticles from "./HighlightArticles";
+import LastArticles from "./LastArticles";
 
 const App = () => {
   return (
     <>
       <Header />
       <HighlightArticles />
+      <LastArticles />
       <Article />
       <Footer />
     </>
