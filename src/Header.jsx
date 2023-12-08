@@ -1,13 +1,10 @@
+import Nav from "./Nav";
+
 const Header = () => {
   return (
     <header>
       <h1>Titre</h1>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Articles</li>
-        </ul>
-      </nav>
+      <Nav />
     </header>
   );
 };
